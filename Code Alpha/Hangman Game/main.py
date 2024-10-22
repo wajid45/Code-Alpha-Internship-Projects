@@ -7,7 +7,7 @@ def hangman():
     word = random.choice(words)
 
     used_letters = set()
-    tries = len(word)
+    tries = len(word)                #Tries will be equal to the length of word
     print("\n Total number of tries: ",tries)
 
     while tries > 0:
