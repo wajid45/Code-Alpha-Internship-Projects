@@ -1,5 +1,6 @@
 import requests
 
+
 class Stock:
     def __init__(self, symbol, quantity, price):
         self.symbol = symbol
