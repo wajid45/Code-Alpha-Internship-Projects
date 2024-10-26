@@ -6,7 +6,7 @@ nltk.download('punkt')
 
 # Define a list of patterns and responses
 pairs = [
-    [
+    [ 
         r"my name is Ai Chatbot",
         ["Hello %1, how can I help you today?",]
     ],
